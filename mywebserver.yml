@@ -17,9 +17,5 @@
       name: httpd
       state: present
     when: ansible_os_family=="redhat"
-  - name: i want to start webserver
-    service:
-      name: httpd
-      state: restarted
-    when: ansible_os_family=="redhat"
+  
     
